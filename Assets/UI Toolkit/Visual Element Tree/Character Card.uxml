@@ -1,0 +1,31 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="Badge" src="project://database/Assets/UI%20Toolkit/Visual%20Element%20Tree/Badge.uxml?fileID=9197481963319205126&amp;guid=fca6a506f601f47be9d9cf61ea114e6a&amp;type=3#Badge" />
+    <ui:VisualElement name="CharacterCard" class="CharacterCard">
+        <ui:VisualElement name="Background" class="CharacterCard_BG" />
+        <ui:VisualElement name="CharacterPicture" class="Picture_Container">
+            <ui:VisualElement name="Picture_Background" class="Picture_Background" />
+            <ui:VisualElement name="Picture_Image" class="Picture_Image" />
+            <ui:VisualElement name="Picture_Foreground" class="Picture_Foreground" />
+        </ui:VisualElement>
+        <ui:VisualElement name="CharacterName" class="Name_Container">
+            <ui:VisualElement name="Background" />
+            <ui:Label text="This is the name" display-tooltip-when-elided="true" name="Name_Text" class="Name_Text" />
+            <ui:VisualElement name="FG_Right" class="foreground" />
+            <ui:VisualElement name="FG_Left" class="foreground" />
+        </ui:VisualElement>
+        <ui:ScrollView name="CharacterInformation" class="CharacterInfo_Container">
+            <ui:VisualElement name="SpecSection" class="infoSection">
+                <ui:Label text="Specs" display-tooltip-when-elided="true" name="Specs_Title" class="Info_Title" />
+                <ui:VisualElement name="SpecsContainer">
+                    <ui:Label text="This is an Information" display-tooltip-when-elided="true" name="Specs_Text" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="BadgeSection" class="infoSection">
+                <ui:Label text="Badges" display-tooltip-when-elided="true" name="Badge_Title" class="Info_Title" />
+                <ui:ScrollView name="BadgesContainer" mode="Horizontal" class="BadgesList_Container">
+                    <ui:Instance template="Badge" name="Badge" />
+                </ui:ScrollView>
+            </ui:VisualElement>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

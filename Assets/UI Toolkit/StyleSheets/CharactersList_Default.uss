@@ -1,0 +1,290 @@
+.CharactersList {
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 90%;
+    height: 100%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.CharactersList .CharacterCard {
+    width: 400px;
+    height: 100%;
+}
+
+.ScreenTitle {
+    font-size: 30px;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    margin-left: 5%;
+    margin-right: 5px;
+    margin-top: 5%;
+}
+
+.screen_background {
+    width: 100%;
+    height: 100%;
+    -unity-background-scale-mode: scale-and-crop;
+}
+
+Label {
+}
+.CharacterCard {
+    width: 100%;
+    height: 100%;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Info_Title {
+    color: rgb(0, 0, 0);
+    -unity-font-style: bold;
+    font-size: 20px;
+}
+
+#SpecsContainer Label {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.Name_Text {
+    -unity-text-align: middle-center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    -unity-font-style: bold;
+}
+
+.Name_Container {
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    background-color: rgb(255, 255, 255);
+}
+
+.Picture_Container {
+    width: 100%;
+    height: 45%;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+}
+
+.Picture_Image {
+    width: 100%;
+    height: 100%;
+    background-image: url('project://database/Assets/Art/Character%20Pictures/Profile7.png?fileID=2800000&guid=c4e16c52f6dac314c98df9e37cc87139&type=3#Profile7');
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.CharacterInfo_Container {
+    width: 100%;
+    height: 44%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1%;
+}
+
+.BadgesList_Container {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.Badge_Container {
+    width: 50px;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.Badge_Container #Badge_Icon {
+    background-image: url('project://database/Assets/Art/Badge%20icons/Cauldron.png?fileID=2800000&guid=5d412bbccc8df8e4f841dfed3779a800&type=3#Cauldron');
+    width: 80%;
+    height: 80%;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.unity-scroller__high-button {
+    display: none;
+    visibility: hidden;
+}
+
+.unity-scroller__low-button {
+    display: none;
+    visibility: hidden;
+}
+
+.unity-base-slider {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.unity-base-slider__tracker {
+    background-color: rgb(0, 0, 0);
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom-right-radius: 2px;
+    height: 100%;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+    width: 100%;
+}
+
+.unity-base-slider__dragger {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    background-color: rgb(111, 111, 111);
+    height: 100%;
+    width: 100%;
+}
+
+#BadgesContainer .unity-scroller {
+    height: 5px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    width: auto;
+}
+
+.unity-scroller {
+    height: auto;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    width: 5px;
+}
+
+.CharacterInfo_Container .unity-scroll-view__content-container {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.Picture_Foreground {
+    display: none;
+}
+
+.foreground {
+    display: none;
+}
+
+.foreground#FG_Left {
+    position: absolute;
+    left: -20px;
+    rotate: 180deg;
+}
+
+.foreground#FG_Right {
+    right: -20px;
+    position: absolute;
+}
+
+.CharacterCard_BG {
+    position: absolute;
+    left: 150px;
+    top: 30%;
+    height: 60%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    display: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    right: 0;
+}
+
+.Name_Container #Background {
+    background-image: url('project://database/Assets/Fantasy%20RPG%20UI%20Pack/PNG/healthbar/RPG_Linear/Metal/Grayscale/background.png?fileID=21300000&guid=9a034dc7f4e17d148addc7599f496daf&type=3#background');
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+.infoSection {
+    width: 100%;
+}
+
+.Picture_Background {
+    display: flex;
+}
+
+#ButtonsContainer #Default {
+    display: none;
+}
+
+#ButtonsContainer #Fantasy {
+
+    display: flex;
+}
+
+#ButtonsContainer #Landscape {
+
+    display: flex;
+}
+
+

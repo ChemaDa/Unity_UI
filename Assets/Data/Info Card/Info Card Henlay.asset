@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c04fc1fae3baaf429d1043b5dffa0ad, type: 3}
+  m_Name: Info Card Henlay
+  m_EditorClassIdentifier: Assembly-CSharp::CardData/SFXData
+  image: {fileID: 21300000, guid: a2caf0638cb734d4581962a7d7a69697, type: 3}
+  color: {r: 0.8705883, g: 0.80392164, b: 0.76470596, a: 1}
+  Title: Henlay AKA Blue
+  specs_List:
+  - Their favorite color is blue
+  - They have the power of weather controle
+  - Enjoys being in the wilderness
+  - 'Special Ability : Invisibility'
+  badges_List:
+  - {fileID: 11400000, guid: 21a029dcefcce0f4783b8426c7c3fbcc, type: 2}
+  - {fileID: 11400000, guid: 8bfc5e4b909a5e84f9736e31c373dd2f, type: 2}
+  - {fileID: 11400000, guid: b318b7ccf73d09540b7806ae681aba28, type: 2}
+  - {fileID: 11400000, guid: ed3ea0ae62711fb4da885d0c2904b6b0, type: 2}

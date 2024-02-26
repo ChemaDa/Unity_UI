@@ -1,0 +1,311 @@
+.CharactersList {
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 90%;
+    height: 100%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url('project://database/Assets/Fantasy%20RPG%20UI%20Pack/PNG/healthbar/Skill_panel/color/skill_panel/3/background3.png?fileID=2800000&guid=3416c6fa12eea8d4a9dd91e9cad95a5d&type=3#background3');
+}
+
+.CharactersList .CharacterCard {
+    width: 100%;
+    left: 0;
+    height: 300px;
+}
+
+.ScreenTitle {
+    font-size: 120px;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    margin-left: 5%;
+    margin-right: 5px;
+    margin-top: 5%;
+}
+
+.screen_background {
+    width: 100%;
+    height: 100%;
+    -unity-background-scale-mode: scale-and-crop;
+    background-image: url('project://database/Assets/Fantasy%20RPG%20UI%20Pack/PNG/background.png?fileID=2800000&guid=e2f41cb5cda306443bd682ec596a74e3&type=3#background');
+}
+
+Label {
+    -unity-font-definition: url('project://database/Assets/Fantasy%20RPG%20UI%20Pack/Fonts/Wonderland%20SDF.asset?fileID=11400000&guid=ec2d85607e6c39e44986bd51ac5b198e&type=2#Wonderland SDF');
+}
+.CharacterCard {
+    width: 100%;
+    height: 100%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    flex-direction: row;
+}
+
+.Info_Title {
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    font-size: 30px;
+    -unity-font-definition: url('project://database/Assets/Fantasy%20RPG%20UI%20Pack/Fonts/Wonderland%20SDF.asset?fileID=11400000&guid=ec2d85607e6c39e44986bd51ac5b198e&type=2#Wonderland SDF');
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#SpecsContainer Label {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    -unity-font-definition: url('project://database/Assets/Fantasy%20RPG%20UI%20Pack/Fonts/Wonderland%20SDF.asset?fileID=11400000&guid=ec2d85607e6c39e44986bd51ac5b198e&type=2#Wonderland SDF');
+}
+
+.Name_Text {
+    -unity-text-align: middle-center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    -unity-font-style: bold;
+    -unity-font-definition: url('project://database/Assets/Fantasy%20RPG%20UI%20Pack/Fonts/Wonderland%20SDF.asset?fileID=11400000&guid=ec2d85607e6c39e44986bd51ac5b198e&type=2#Wonderland SDF');
+}
+
+.Name_Container {
+    width: 30%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    position: absolute;
+    transform-origin: left bottom;
+    right: 0;
+    margin-left: 0;
+    margin-right: 25px;
+    margin-bottom: 0;
+    top: 20px;
+}
+
+.Picture_Container {
+    width: 300px;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-image: url('project://database/Assets/Fantasy%20RPG%20UI%20Pack/PNG/healthbar/RPG_Round/Metal/Grayscale/background.png?fileID=2800000&guid=6247675caa88cea49aaa55f724da11e6&type=3#background');
+    -unity-background-scale-mode: scale-to-fit;
+    flex-direction: row;
+}
+
+.Picture_Image {
+    width: 100%;
+    height: 100%;
+    background-image: url('project://database/Assets/Art/Character%20Pictures/Profile7.png?fileID=2800000&guid=c4e16c52f6dac314c98df9e37cc87139&type=3#Profile7');
+    -unity-background-scale-mode: scale-to-fit;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.CharacterInfo_Container {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 50%;
+    top: 30%;
+    margin-left: 20px;
+}
+
+.BadgesList_Container {
+    width: 100%;
+}
+
+.Badge_Container {
+    width: 50px;
+    height: 50px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-image: url('project://database/Assets/Fantasy%20RPG%20UI%20Pack/PNG/healthbar/RPG_Round/Metal/Grayscale/ball.png?fileID=2800000&guid=3aebe6748b1d1384b9a16b45245f54da&type=3#ball');
+}
+
+.Badge_Container #Badge_Icon {
+    background-image: url('project://database/Assets/Art/Badge%20icons/Cauldron.png?fileID=2800000&guid=5d412bbccc8df8e4f841dfed3779a800&type=3#Cauldron');
+    width: 50%;
+    height: 50%;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.unity-scroller__high-button {
+    display: none;
+    visibility: hidden;
+}
+
+.unity-scroller__low-button {
+    display: none;
+    visibility: hidden;
+}
+
+.unity-base-slider {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.unity-base-slider__tracker {
+    background-color: rgb(0, 0, 0);
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom-right-radius: 2px;
+    height: 100%;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+    width: 100%;
+}
+
+.unity-base-slider__dragger {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    background-color: rgb(111, 111, 111);
+    height: 100%;
+    width: 100%;
+}
+
+#BadgesContainer .unity-scroller {
+    height: 5px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    width: auto;
+}
+
+.unity-scroller {
+    height: auto;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    width: 5px;
+}
+
+.CharacterInfo_Container .unity-scroll-view__content-container {
+    flex-direction: row;
+}
+
+.Picture_Foreground {
+    background-image: url('project://database/Assets/Fantasy%20RPG%20UI%20Pack/PNG/healthbar/RPG_Round/Metal/Frame/ball.png?fileID=2800000&guid=ce5ac0b2b7fa0164fae937ae4d9ef564&type=3#ball');
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    -unity-background-scale-mode: scale-to-fit;
+    align-items: stretch;
+    height: 100%;
+    width: 100%;
+    left: 0;
+}
+
+.foreground {
+    background-image: url('project://database/Assets/Fantasy%20RPG%20UI%20Pack/PNG/healthbar/RPG_Round/Metal/Frame/ball-decor5.png?fileID=2800000&guid=3924067b63baf3f42bed9edfad5c43a3&type=3#ball-decor5');
+    width: 45px;
+    -unity-background-scale-mode: scale-to-fit;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.foreground#FG_Left {
+    position: absolute;
+    left: -20px;
+    rotate: 180deg;
+}
+
+.foreground#FG_Right {
+    right: -20px;
+    position: absolute;
+}
+
+.CharacterCard_BG {
+    position: absolute;
+    left: 150px;
+    top: 30%;
+    height: 60%;
+    background-image: url('project://database/Assets/Fantasy%20RPG%20UI%20Pack/PNG/healthbar/Skill_panel/color/buttons/2/background2.png?fileID=21300000&guid=0239d99e34af5194ba14787b0551849f&type=3#background2');
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    display: flex;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    right: 0;
+}
+
+.Name_Container #Background {
+    background-image: url('project://database/Assets/Fantasy%20RPG%20UI%20Pack/PNG/healthbar/RPG_Linear/Metal/Grayscale/background.png?fileID=21300000&guid=9a034dc7f4e17d148addc7599f496daf&type=3#background');
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.infoSection {
+    height: 100%;
+    width: 50%;
+}
+
+.Picture_Background {
+}
+
+#ButtonsContainer #Default {
+    display: flex;
+}
+
+#ButtonsContainer #Fantasy {
+    display: flex;
+}
+
+#ButtonsContainer #Landscape {
+    display: none;
+ 
+}
+

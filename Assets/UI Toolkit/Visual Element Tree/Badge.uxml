@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="Badge" class="Badge_Container">
+        <ui:VisualElement name="Badge_Icon" />
+    </ui:VisualElement>
+</ui:UXML>

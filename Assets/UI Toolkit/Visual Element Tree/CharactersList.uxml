@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="Character Card" src="project://database/Assets/UI%20Toolkit/Visual%20Element%20Tree/Character%20Card.uxml?fileID=9197481963319205126&amp;guid=0a4f1626d4c1a449682b4f8c6bd72561&amp;type=3#Character Card" />
+    <Style src="project://database/Assets/UI%20Toolkit/StyleSheets/CharactersList_Fantasy_Landscape.uss?fileID=7433441132597879392&amp;guid=97732b876a58a4d84bb786d583c7be07&amp;type=3#CharactersList_Fantasy_Landscape" />
+    <ui:VisualElement name="CharactersScreen" class="screen_background">
+        <ui:Label text="Characters List" display-tooltip-when-elided="true" name="ScreenTitle" class="ScreenTitle" />
+        <ui:ScrollView name="CharactersList" mode="Horizontal" class="CharactersList" style="flex-direction: row;">
+            <ui:Instance template="Character Card" name="Character Card" />
+        </ui:ScrollView>
+        <ui:VisualElement name="ButtonsContainer" style="flex-direction: row;">
+            <ui:Button text="Default" display-tooltip-when-elided="true" name="Default" />
+            <ui:Button text="Fantasy" display-tooltip-when-elided="true" name="Fantasy" />
+            <ui:Button text="Landscape" display-tooltip-when-elided="true" name="Landscape" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
